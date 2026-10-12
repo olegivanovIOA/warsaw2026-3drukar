@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /thanks/
+Disallow: /pl/thanks/
+Allow: /
+Sitemap: https://warsaw2026.3drukar.com/sitemap.xml
