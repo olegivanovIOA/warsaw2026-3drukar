@@ -67,7 +67,7 @@ section{padding-block:clamp(72px,10vw,128px);position:relative}
 .show-tag{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;font:600 12.5px/1.4 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .show-tag .live{display:inline-flex;align-items:center;gap:8px;color:var(--fg);background:var(--surface-2);border:1px solid var(--line);padding:7px 11px;border-radius:999px}
 .show-tag .live::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--e3d);box-shadow:0 0 0 4px rgba(39,212,95,.18)}
-.hero h1{font-size:clamp(44px,6.3vw,90px);line-height:.93;text-transform:uppercase;letter-spacing:-.03em}
+.hero h1{font-size:clamp(40px,5.4vw,78px);line-height:.93;text-transform:uppercase;letter-spacing:-.03em}
 .hero h1 .ln{display:block}
 .hero h1 .ln:last-child{color:transparent;-webkit-text-stroke:2px var(--fg)}
 .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
@@ -273,6 +273,8 @@ fieldset{border:0;margin:0;padding:0;min-width:0}
 .lp-cta{justify-self:start;border-color:var(--accent);color:var(--fg)}
 .lp-cta:hover{background:color-mix(in srgb,var(--accent) 14%,transparent)}
 .chat{display:grid;gap:10px}
+.kb{display:grid;gap:12px;padding:18px 20px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+.kb .ticks li{font-weight:700}
 /* messenger pills */
 .msgrs{display:flex;flex-wrap:wrap;gap:8px}
 .msgrs:empty{display:none}
